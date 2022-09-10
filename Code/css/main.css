@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body{
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+img{
+    max-width: 150px;    
+}
+  
+a{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+div img{
+    max-width: 100pt;
+    height: fit-content;
+}
